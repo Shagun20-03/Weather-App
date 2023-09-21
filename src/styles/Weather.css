@@ -1,0 +1,98 @@
+/* Weather.css */
+
+/* Container styles */
+.weather-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Input field styles */
+.input-field {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Loading text styles */
+.loading {
+    font-size: 30px;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+    font-size: 25px;
+}
+
+/* Weather data container styles */
+.weather-data {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Forecast container styles */
+.forecast {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.day-data {
+    margin-bottom: 20px;
+    /* Adjust the value as needed for your desired spacing */
+}
+
+.separator {
+    border: 10px solidrgb(197, 57, 57)c;
+    /* Adjust the border styles as needed */
+    margin: 10px 0;
+    /* Adjust the margin for spacing */
+}
+
+/* Toggle button styles */
+.btn-toggle {
+    background-color: #28a745;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-toggle:hover {
+    background-color: #218838;
+}
